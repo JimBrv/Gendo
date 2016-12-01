@@ -1,0 +1,474 @@
+ForGendoClient : Gendo
+downloadmask = 21
+ClientVersion = 20140324
+OEMProgmenu = GendoVPN
+OEMCompany = GendoVPN
+OEMProduct = GendoVPN
+HttpServerAddr = 82.211.30.236
+HttpServerDownloadPort = 80
+HttpServerAddr2 = 82.211.30.236
+HttpServerDownloadPort2 = 80
+
+ServerAddr = gendocloud.com
+ServerServicePort = 8082
+ServerAddr2 = node2.gendocloud.com
+ServerServicePort2 = 8082
+
+ServerDownloadPath = /download/
+
+UpdateMsg1 = 1.修正win8(8.1)系统升级问题;
+UpdateMsg2 = 2.更新所有服务器协议信息；
+UpdateMsg3 = 3.SSL更快、更稳定；
+UpdateMsg4 = 4.TODO：游戏加速;
+UpdateMsg5 = 5.TODO: 欧洲加速;
+
+Gendo: CfgItem
+NameOnServer = Gendo
+ExtOnServer = exe
+NameOnLocal = Gendo
+ExtOnLocal = exe
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000015
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+跟斗云: CfgItem
+NameOnServer = 跟斗云
+ExtOnServer = exe
+NameOnLocal = 跟斗云
+ExtOnLocal = exe
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000008
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+GendoUI: CfgItem
+NameOnServer = GendoUI
+ExtOnServer = exe
+NameOnLocal = GendoUI
+ExtOnLocal = exe
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 0000000000000000000000000000000c
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+gendo-skin0725: CfgItem
+NameOnServer = gendo-skin0725
+ExtOnServer = zip
+NameOnLocal = gendo-skin0725
+ExtOnLocal = zip
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000005
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %gendo-skin%
+end
+
+update-skin: CfgItem
+NameOnServer = update-skin
+ExtOnServer = zip
+NameOnLocal = update-skin
+ExtOnLocal = zip
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000000
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %gendo-skin%
+end
+
+UI_u: CfgItem
+NameOnServer = UI_u
+ExtOnServer = dll
+NameOnLocal = UI_u
+ExtOnLocal = dll
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000001
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+pbk : CfgItem
+NameOnServer = gendo
+ExtOnServer = pbk
+NameOnLocal = gendo
+ExtOnLocal = pbk
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000002
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+libeay32: CfgItem
+NameOnServer = libeay32
+ExtOnServer = dll
+NameOnLocal = libeay32
+ExtOnLocal = dll
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000000
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+ssleay32: CfgItem
+NameOnServer = ssleay32
+ExtOnServer = dll
+NameOnLocal = ssleay32
+ExtOnLocal = dll
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000000
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+l2tp : CfgItem
+NameOnServer = gendo-l2tp
+ExtOnServer = pbk
+NameOnLocal = gendo-l2tp
+ExtOnLocal = pbk
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000001
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+openvpn: CfgItem
+NameOnServer = openvpn
+ExtOnServer = exe
+NameOnLocal = openvpn
+ExtOnLocal = exe
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000000
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+openssl: CfgItem
+NameOnServer = openssl
+ExtOnServer = exe
+NameOnLocal = openssl
+ExtOnLocal = exe
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000000
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+libpkcs11-helper-1: CfgItem
+NameOnServer = libpkcs11-helper-1
+ExtOnServer = dll
+NameOnLocal = libpkcs11-helper-1
+ExtOnLocal = dll
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000001
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+lzo2: CfgItem
+NameOnServer = lzo2
+ExtOnServer = dll
+NameOnLocal = lzo2
+ExtOnLocal = dll
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000001
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+ca: CfgItem
+NameOnServer = ca
+ExtOnServer = crt
+NameOnLocal = ca
+ExtOnLocal = crt
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000001
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %%
+end
+
+
+tap0901: CfgItem
+NameOnServer = tap0901
+ExtOnServer = sys
+NameOnLocal = tap0901
+ExtOnLocal = sys
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000000
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %driver_x86%
+end
+
+tapinstall: CfgItem
+NameOnServer = tapinstall
+ExtOnServer = exe
+NameOnLocal = tapinstall
+ExtOnLocal = exe
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000000
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %driver_x86%
+end
+
+tap0901: CfgItem
+NameOnServer = tap0901
+ExtOnServer = cat
+NameOnLocal = tap0901
+ExtOnLocal = cat
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000000
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %driver_x86%
+end
+
+OemWin2k: CfgItem
+NameOnServer = OemWin2k
+ExtOnServer = inf
+NameOnLocal = OemWin2k
+ExtOnLocal = inf
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000000
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %driver_x86%
+end
+
+tap0901: CfgItem
+NameOnServer = tap0901
+ExtOnServer = sys
+NameOnLocal = tap0901
+ExtOnLocal = sys
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000002
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %driver_x64%
+end
+
+tapinstall: CfgItem
+NameOnServer = tapinstall
+ExtOnServer = exe
+NameOnLocal = tapinstall
+ExtOnLocal = exe
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000001
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %driver_x64%
+end
+
+tap0901: CfgItem
+NameOnServer = tap0901
+ExtOnServer = cat
+NameOnLocal = tap0901
+ExtOnLocal = cat
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000002
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %driver_x64%
+end
+
+OemWin2k: CfgItem
+NameOnServer = OemWin2k
+ExtOnServer = inf
+NameOnLocal = OemWin2k
+ExtOnLocal = inf
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000001
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %driver_x64%
+end
+
+tap0901: CfgItem
+NameOnServer = tap0901
+ExtOnServer = map
+NameOnLocal = tap0901
+ExtOnLocal = map
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000001
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %driver_x64%
+end
+
+tap0901: CfgItem
+NameOnServer = tap0901
+ExtOnServer = pdb
+NameOnLocal = tap0901
+ExtOnLocal = pdb
+FileType = 1
+Guid = {00000000-0000-0000-0000-000000000000}
+Md5 = 00000000000000000000000000000001
+SupportOS = 3
+SupportOS = 4
+SupportOS = 5
+SupportOS = 6
+DownloadMask = 1
+VerOnServer = 0.0.0.1
+SizeOnServer = 36
+LocalPath = %driver_x64%
+end

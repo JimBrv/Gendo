@@ -1,0 +1,2 @@
+---- auth fail Matches (1 in 1 files) ----
+Gas-user-msg.c (gas):        ras_error("login user=[%s], pwd=[%s] auth fail!\n", name, pwd);

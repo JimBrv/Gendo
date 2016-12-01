@@ -1,0 +1,17 @@
+RewriteEngine on
+
+
+RewriteCond %{HTTPS} off
+RewriteCond %{SERVER_NAME} =gendoyun.com
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTPS} off
+RewriteCond %{SERVER_NAME} =www.gendoyun.com
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+RewriteCond $1 !^(index\.php|index\.html|images|js|css|robots\.txt|favicon\.ico)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+#RewriteBase /
+#RewriteCond $1 !^(index\.php|index\.html|images|js|css|robots\.txt|favicon\.ico|g)
+#RewriteRule ^(.*)$ http://%{SERVER_NAME}%:8080/index.php/$1 [L]

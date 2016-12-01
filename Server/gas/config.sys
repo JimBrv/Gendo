@@ -1,0 +1,25 @@
+#
+# Gendo system config
+# 
+
+gas_id         1
+gas_ip         0.0.0.0
+gas_port       8888
+gas_debug_port 8889
+
+gas_max_thread   8
+gas_max_connect  1024
+
+db_server_ip      127.0.0.1
+db_server_port    3306
+db_server_dbname  openvpn
+db_server_user    openvpn
+db_server_pwd     openvpn
+db_server_connect 8
+
+
+
+log_server_ip    127.0.0.1
+log_server_port  8890
+
+AES_crypt_string  1234567890-gendo

@@ -1,0 +1,19 @@
+RewriteEngine on
+Options +FollowSymLinks
+
+#非目录加入index
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1
+
+#强制某些页面https
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} (auth|register|secure|payment)
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+#https中强制某些页面http
+RewriteCond %{HTTPS} on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(static|auth|register|secure|payment)
+RewriteRule ^(.*)$ http://%{SERVER_NAME}%{REQUEST_URI} [R=301,L] 

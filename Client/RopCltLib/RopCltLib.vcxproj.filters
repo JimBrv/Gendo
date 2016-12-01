@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5_dgst.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5_one.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopAsyncAcceptor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopAsyncDevice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopAsyncDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopAsyncIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopAsyncSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopAsyncSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopAsyncSSLSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopEventDispatcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopExecuter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopIoQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopNetState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopPDH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopPing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopPPPoE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopProxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopRegistry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopSyncMsg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopSyncSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopPPTP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopRouteTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopOpenVpn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopAES.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopEncryptFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopL2TP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopNet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RopTap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="md32_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5_locl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopAsyncAcceptor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopAsyncDevice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopAsyncDll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopAsyncIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopAsyncSession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopAsyncSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopAsyncSSLSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopBuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopCltLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopEventDispatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopExecuter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopIoQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopModule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopMsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopNetState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopPDH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopPing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopPPPoE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopProxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopRegistry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopSyncMsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopSyncSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopError.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopPPTP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopRouteTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopOpenVpn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopAES.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopEncryptFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopL2TP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopTap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RopNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="..\Gendo\ReadMe.txt" />
+  </ItemGroup>
+</Project>

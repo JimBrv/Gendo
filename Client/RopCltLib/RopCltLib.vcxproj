@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B68AA57-E14D-4957-B1B0-79C3AE583F7E}</ProjectGuid>
+    <RootNamespace>RopCltLib</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\openssl_out32dll\inc32;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\openssl_out32dll;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\openssl_out32dll\inc32;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\openssl_out32dll;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\Server\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>Shlwapi.lib;Iphlpapi.lib;Psapi.lib;Ws2_32.lib;ssleay32.lib;libeay32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\Server\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>Shlwapi.lib;Iphlpapi.lib;Psapi.lib;ssleay32.lib;libeay32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="md5_dgst.cpp" />
+    <ClCompile Include="md5_one.cpp" />
+    <ClCompile Include="RopAES.cpp" />
+    <ClCompile Include="RopAsyncAcceptor.cpp" />
+    <ClCompile Include="RopAsyncDevice.cpp" />
+    <ClCompile Include="RopAsyncDll.cpp" />
+    <ClCompile Include="RopAsyncIO.cpp" />
+    <ClCompile Include="RopAsyncSession.cpp" />
+    <ClCompile Include="RopAsyncSocket.cpp" />
+    <ClCompile Include="RopAsyncSSLSocket.cpp" />
+    <ClCompile Include="RopBase.cpp" />
+    <ClCompile Include="RopEncryptFile.cpp" />
+    <ClCompile Include="RopEventDispatcher.cpp" />
+    <ClCompile Include="RopExecuter.cpp" />
+    <ClCompile Include="RopIoQueue.cpp" />
+    <ClCompile Include="RopL2TP.cpp" />
+    <ClCompile Include="RopNet.cpp" />
+    <ClCompile Include="RopNetState.cpp" />
+    <ClCompile Include="RopOpenVpn.cpp" />
+    <ClCompile Include="RopPDH.cpp" />
+    <ClCompile Include="RopPing.cpp" />
+    <ClCompile Include="RopPPPoE.cpp" />
+    <ClCompile Include="RopPPTP.cpp" />
+    <ClCompile Include="RopProcess.cpp" />
+    <ClCompile Include="RopProxy.cpp" />
+    <ClCompile Include="RopQueue.cpp" />
+    <ClCompile Include="RopRegistry.cpp" />
+    <ClCompile Include="RopRouteTable.cpp" />
+    <ClCompile Include="RopService.cpp" />
+    <ClCompile Include="RopSyncMsg.cpp" />
+    <ClCompile Include="RopSyncSocket.cpp" />
+    <ClCompile Include="RopTap.cpp" />
+    <ClCompile Include="RopUtil.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="md32_common.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="md5_locl.h" />
+    <ClInclude Include="RopAES.h" />
+    <ClInclude Include="RopAsyncAcceptor.h" />
+    <ClInclude Include="RopAsyncDevice.h" />
+    <ClInclude Include="RopAsyncDll.h" />
+    <ClInclude Include="RopAsyncIO.h" />
+    <ClInclude Include="RopAsyncSession.h" />
+    <ClInclude Include="RopAsyncSocket.h" />
+    <ClInclude Include="RopAsyncSSLSocket.h" />
+    <ClInclude Include="RopBase.h" />
+    <ClInclude Include="RopBuf.h" />
+    <ClInclude Include="RopCltLib.h" />
+    <ClInclude Include="RopEncryptFile.h" />
+    <ClInclude Include="RopError.h" />
+    <ClInclude Include="RopEventDispatcher.h" />
+    <ClInclude Include="RopExecuter.h" />
+    <ClInclude Include="RopIoQueue.h" />
+    <ClInclude Include="RopL2TP.h" />
+    <ClInclude Include="RopModule.h" />
+    <ClInclude Include="RopMsg.h" />
+    <ClInclude Include="RopNet.h" />
+    <ClInclude Include="RopNetState.h" />
+    <ClInclude Include="RopOpenVpn.h" />
+    <ClInclude Include="RopPDH.h" />
+    <ClInclude Include="RopPing.h" />
+    <ClInclude Include="RopPPPoE.h" />
+    <ClInclude Include="RopPPTP.h" />
+    <ClInclude Include="RopProcess.h" />
+    <ClInclude Include="RopProxy.h" />
+    <ClInclude Include="RopQueue.h" />
+    <ClInclude Include="RopRegistry.h" />
+    <ClInclude Include="RopRouteTable.h" />
+    <ClInclude Include="RopService.h" />
+    <ClInclude Include="RopSyncMsg.h" />
+    <ClInclude Include="RopSyncSocket.h" />
+    <ClInclude Include="RopTap.h" />
+    <ClInclude Include="RopUtil.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Gendo\ReadMe.txt" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

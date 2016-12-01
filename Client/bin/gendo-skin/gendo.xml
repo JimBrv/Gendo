@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="450,400" roundcorner="3,3">
+    <Font name="Arial" size="12" bold="false" italic="false" default="true" />
+    <Font name="Arial" size="12" bold="true" italic="false" />
+    <Default name="VScrollBar" value="button1normalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,90,16,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button1hotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,90,34,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button1pushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,90,52,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button1disabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,90,70,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button2normalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,108,16,124&apos; mask=&apos;#FFFF00FF&apos;&quot; button2hotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,108,34,124&apos; mask=&apos;#FFFF00FF&apos;&quot; button2pushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,108,52,124&apos; mask=&apos;#FFFF00FF&apos;&quot; button2disabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,108,70,124&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbnormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,126,16,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,126,34,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,126,52,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbdisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,126,70,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railnormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,144,16,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,144,34,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,144,52,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; raildisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,144,70,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bknormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,162,16,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,162,34,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,162,52,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkdisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,162,70,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; " />
+    <Default name="HScrollBar" value="button1normalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,0,16,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1hotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,0,34,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1pushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,0,52,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button1disabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,0,70,16&apos; mask=&apos;#FFFF00FF&apos;&quot; button2normalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,18,16,34&apos; mask=&apos;#FFFF00FF&apos;&quot; button2hotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,18,34,34&apos; mask=&apos;#FFFF00FF&apos;&quot; button2pushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,18,52,34&apos; mask=&apos;#FFFF00FF&apos;&quot; button2disabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,18,70,34&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbnormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,36,16,52&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,36,34,52&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,36,52,52&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbdisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,36,70,52&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railnormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,54,16,70&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,54,34,70&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,54,52,70&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; raildisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,54,70,70&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bknormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,72,16,88&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,72,34,88&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,72,52,88&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkdisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,72,70,88&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; " />
+    <VerticalLayout bkimage="file=&apos;main.png&apos; corner=&apos;13,85,12,34&apos;" bordercolor="#006B93B2" inset="5,0,5,1">
+        <HorizontalLayout bordersize="1" height="28" bkcolor="#006B93B2">
+            <Button width="30" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;gendo-trit.png&apos; dest=&apos;3,3,26,26&apos;" />
+            <Container bordersize="1" height="25" bkcolor="#00757676">
+                <Label text="跟斗云-随行而至 www.gendocloud.com VER20140110贺岁版" bordersize="1" bkcolor="#00B9D1EF" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+                <Button float="true" height="22" pos="340,2,420,24" align="center" normalimage="manewy.png" />
+            </Container>
+            <Button name="maxbtn" bordersize="1" width="27" height="20" bkcolor="#00B9D1EF" bkcolor2="#00757676" maxheight="20" maxwidth="27" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;common.bmp&apos; source=&apos;0,0,27,20&apos;" hotimage="file=&apos;common.bmp&apos; source=&apos;27,0,54,20&apos;" pushedimage="file=&apos;common.bmp&apos; source=&apos;54,0,81,20&apos;" />
+            <Button name="restorebtn" width="26" height="20" bkcolor="#FFB9D1EF" bkcolor2="#FF757676" bordercolor="#FF000000" maxheight="20" maxwidth="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;common.bmp&apos; source=&apos;0,20,26,40&apos;" hotimage="file=&apos;common.bmp&apos; source=&apos;26,20,52,40&apos;" pushedimage="file=&apos;common.bmp&apos; source=&apos;52,20,78,40&apos;" />
+            <Button name="closebtn" width="41" height="21" bkcolor="#FFB9D1EF" bkcolor2="#FF757676" bordercolor="#FF000000" maxheight="20" maxwidth="41" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;common.bmp&apos; source=&apos;0,60,41,80&apos;" hotimage="file=&apos;common.bmp&apos; source=&apos;41,60,82,80&apos;" pushedimage="file=&apos;common.bmp&apos; source=&apos;82,60,123,80&apos;" />
+        </HorizontalLayout>
+        <HorizontalLayout height="28" bkcolor="#006B93B2" />
+        <HorizontalLayout height="30" bkcolor="#006B93B2">
+            <Option name="opt_server" text="服务器信息" width="120" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;TabButton.png&apos; source=&apos;0,90,120,120&apos; corner=&apos;2,2,2,2&apos;" hotimage="file=&apos;TabButton.png&apos; source=&apos;0,120,120,150&apos; corner=&apos;2,2,2,2&apos;" group="true" selected="true" selectedimage="file=&apos;TabButton.png&apos; source=&apos;0,60,120,90&apos; corner=&apos;2,2,2,2&apos;" />
+            <Option name="opt_user" text="用户信息" width="120" textcolor="#00FF1493" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;TabButton.png&apos; source=&apos;0,90,120,120&apos; corner=&apos;2,2,2,2&apos;" hotimage="file=&apos;TabButton.png&apos; source=&apos;0,120,120,150&apos; corner=&apos;2,2,2,2&apos;" group="true" selectedimage="file=&apos;TabButton.png&apos; source=&apos;0,60,120,90&apos; corner=&apos;2,2,2,2&apos;" />
+            <Option name="opt_history" text="历史记录" width="120" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;TabButton.png&apos; source=&apos;0,90,120,120&apos; corner=&apos;2,2,2,2&apos;" hotimage="file=&apos;TabButton.png&apos; source=&apos;0,120,120,150&apos; corner=&apos;2,2,2,2&apos;" group="true" selectedimage="file=&apos;TabButton.png&apos; source=&apos;0,60,120,90&apos; corner=&apos;2,2,2,2&apos;" />
+            <Container bordersize="1" height="30" bkcolor="#00757676" />
+            <VerticalLayout width="90">
+                <Container bordersize="1" height="2" bkcolor="#00757676" />
+                <Button name="twitter-follow" tooltip="Follow us on Twitter" width="70" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="right" normalimage="file=&apos;twitter.jpg&apos; dest=&apos;5,10,10,20&amp;apos" />
+            </VerticalLayout>
+            <Container bordersize="1" height="30" bkcolor="#00757676" />
+            <Label name="welcome-title" text="欢迎您，" width="48" textcolor="#FFFFFFFF" />
+            <Button name="welcome-name" text="匿名用户" width="100" textcolor="#FFFFFFFF" />
+        </HorizontalLayout>
+        <TabLayout name="tab_main" bordersize="1" bkcolor="#FF757676">
+            <VerticalLayout>
+                <HorizontalLayout inset="3,3,3,3">
+                    <List name="server_list" bordersize="1" bkimage="file=&apos;serverlist_bk.png&apos; ytiled=&apos;true&apos;" bkcolor="#FFE0F0FE" bordercolor="#FF1B4876" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" inset="3,3,3,3" vscrollbar="true" hscrollbar="true">
+                        <ListHeader height="24" menu="true">
+                            <ListHeaderItem text="名称" width="220" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" normalimage="file=&apos;list_header_bg.png&apos;" pushedimage="file=&apos;list_header_pushed.png&apos;" sepimage="file=&apos;list_header_sep.png&apos;" />
+                            <ListHeaderItem text="信息" width="160" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" normalimage="file=&apos;list_header_bg.png&apos;" pushedimage="file=&apos;list_header_pushed.png&apos;" sepimage="file=&apos;list_header_sep.png&apos;" />
+                            <ListHeaderItem text="国家" width="50" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" normalimage="file=&apos;list_header_bg.png&apos;" pushedimage="file=&apos;list_header_pushed.png&apos;" sepimage="file=&apos;list_header_sep.png&apos;" />
+                            <ListHeaderItem text="支持方式" width="150" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" normalimage="file=&apos;list_header_bg.png&apos;" pushedimage="file=&apos;list_header_pushed.png&apos;" sepimage="file=&apos;list_header_sep.png&apos;" />
+                            <ListHeaderItem text="延时" width="110" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" normalimage="file=&apos;list_header_bg.png&apos;" pushedimage="file=&apos;list_header_pushed.png&apos;" sepimage="file=&apos;list_header_sep.png&apos;" />
+                            <ListHeaderItem text="负载" width="70" minwidth="16" sepwidth="1" align="center" normalimage="file=&apos;list_header_bg.png&apos;" pushedimage="file=&apos;list_header_pushed.png&apos;" sepimage="file=&apos;list_header_sep.png&apos;" />
+                            <ListHeaderItem text="状态" width="70" minwidth="16" sepwidth="1" align="center" normalimage="file=&apos;list_header_bg.png&apos;" pushedimage="file=&apos;list_header_pushed.png&apos;" sepimage="file=&apos;list_header_sep.png&apos;" />
+                        </ListHeader>
+                    </List>
+                </HorizontalLayout>
+                <HorizontalLayout height="40" bkimage="file=&apos;toolbar\bk.bmp&apos;" bkcolor="#00757676" inset="1,1,1,1">
+                    <Container width="50" />
+                    <Button name="refresh" text="刷新服务器" textpadding="0,4,0,0" width="80" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;button.png&apos; dest=&apos;2,6,77,31&apos;" hotimage="file=&apos;button_h.png&apos; dest=&apos;2,4,77,30&apos;" />
+                    <Container width="20" />
+                    <Button name="ping" text="测速" textpadding="0,4,0,0" width="75" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;button.png&apos; dest=&apos;2,6,77,31&apos;" hotimage="file=&apos;button_h.png&apos; dest=&apos;2,4,77,30&apos;" />
+                    <Container width="20" />
+                    <Button name="auto-svr" text="智能选择" textpadding="0,4,0,0" width="75" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;button.png&apos; dest=&apos;2,6,77,31&apos;" hotimage="file=&apos;button_h.png&apos; dest=&apos;2,4,77,30&apos;" />
+                    <Container width="160" />
+                     <!-- Progress name="connect_progress" width="160" height="40" bkimage="file=&apos;toolbar\bk.bmp&apos; dest=&apos;0,6,160,36&apos;" foreimage="file=&apos;progress_fore.png&apos; dest=&apos;0,6,160,26&apos;" maxheight="32" maxwidth="160" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" / -->
+                    <Progress name="connect_progress" float="true" pos="550,10,750,30" width="180" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progress_fore.png" min="0" max="100" value="0" hor="true" isstretchfore="false" />
+                </HorizontalLayout>
+                <HorizontalLayout height="50" bkimage="file=&apos;toolbar\bk.bmp&apos;" bkcolor="#00757676" inset="1,1,1,1">
+                    <Container width="20" />
+                    <Button name="cur-svr" text="免费线路1-美国" textpadding="20,6,0,0" width="148" height="45" textcolor="#FF000000" align="center" normalimage="file=&apos;server.jpg&apos; dest=&apos;2,2,42,42&apos;" />
+                    <Button name="protocol-set" text="协议" width="80" height="45" textpadding="29,2,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="right" normalimage="file=&apos;protocol.jpg&apos; dest=&apos;2,2,42,42&apos;" />
+               
+                    <Container width="20" />
+                        <Option name="pptp" text="PPTP" align="left" width="65" height="30" textpadding="20,15,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="file=&apos;radio.png&apos; dest=&apos;0,15,16,32&apos;" hotimage="file=&apos;radio_h.png&apos; dest=&apos;0,15,17,33&apos;" group="proto" selectedimage="file=&apos;radio_p.png&apos; dest=&apos;0,15,16,32&apos;" />
+                        <Option name="l2tp" text="L2TP" align="left" width="65" height="30" textpadding="20,15,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="file=&apos;radio.png&apos; dest=&apos;0,15,16,32&apos;" hotimage="file=&apos;radio_h.png&apos; dest=&apos;0,15,17,33&apos;" group="proto" selectedimage="file=&apos;radio_p.png&apos; dest=&apos;0,15,16,32&apos;" />
+                        <!--Option name="ssl-tcp" text="SSL-TCP" align="left" width="80" height="30" textpadding="20,10,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="file=&apos;radio.png&apos; dest=&apos;0,10,16,26&apos;" hotimage="file=&apos;radio_h.png&apos; dest=&apos;0,10,16,26&apos;" group="proto" selectedimage="file=&apos;radio_p.png&apos; dest=&apos;0,10,16,26&apos;" /-->
+                        <Option name="ssl-udp" text="SSL" align="left" width="80" height="30" textpadding="20,15,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="file=&apos;radio.png&apos; dest=&apos;0,15,16,32&apos;" hotimage="file=&apos;radio_h.png&apos; dest=&apos;0,15,17,33&apos;" group="proto" selectedimage="file=&apos;radio_p.png&apos; dest=&apos;0,15,16,32&apos;"/>
+                    <Container width="30" />
+                    <Button name="connect" text="连接" textpadding="0,10,0,0" width="75" height="40" align="center" normalimage="file=&apos;button.png&apos; dest=&apos;2,11,77,40&apos;" hotimage="file=&apos;button_h.png&apos; dest=&apos;2,10,77,40&apos;" />
+                    <Container width="10" />
+                    <Button name="disconnect" text="断开" textpadding="0,10,0,0" width="75" height="40" align="center" normalimage="file=&apos;button.png&apos; dest=&apos;2,11,77,40&apos;" hotimage="file=&apos;button_h.png&apos; dest=&apos;2,10,77,40&apos;" />
+                </HorizontalLayout>
+                <HorizontalLayout height="50" bkimage="file=&apos;toolbar\bk.bmp&apos;" bkcolor="#00757676" inset="1,1,1,1">
+                    <Label name="protocol-info"  align="left" text="SSL会在第一次运行安装，请以管理员身份运行" width="300" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                    <VerticalLayout>
+                        <Label name="notice-info"  align="right" text="最新：SSL成功后，网络需要10-20秒时间调整，请耐心等待！" width="520" textcolor="#00FF1493" disabledtextcolor="#FFA7A6AA" align="right" />
+                        <Label name="notice-info2"  align="right" text="     首次运行SSL会自动安装相关组件" width="520" textcolor="#00FF1493" disabledtextcolor="#FFA7A6AA" align="right" />
+                    </VerticalLayout>
+                </HorizontalLayout>
+            </VerticalLayout>
+            <VerticalLayout>
+                <List name="userinfo_list" bordersize="1" bkimage="file=&apos;downlist_bk.png&apos; ytiled=&apos;true&apos;" bkcolor="#FFE0F0FE" bordercolor="#FF1B4876" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" header="hidden" inset="3,3,3,3" vscrollbar="true" hscrollbar="true">
+                    <ListHeader />
+                    <ListContainerElement height="31">
+                        <HorizontalLayout bkcolor="#006B93B2">
+                            <Button name="name_ico" width="32" bkimage="header-transfprimeM.jpg" bordercolor="#FF000000" maxheight="32" align="center" />
+                            <Label name="name_split" width="20" />
+                            <Label name="name_text" text="gendo" textcolor="#004BB2F6" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        </HorizontalLayout>
+                    </ListContainerElement>
+                    <ListContainerElement height="31">
+                        <HorizontalLayout bkcolor="#006B93B2">
+                            <Label name="nick_lbl" text="昵称：" width="80" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            <Label name="nick_text" text="中国梦" textcolor="#004BB2F6" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        </HorizontalLayout>
+                    </ListContainerElement>
+                    <ListContainerElement height="31">
+                        <HorizontalLayout bkcolor="#006B93B2">
+                            <Label name="register_lbl" text="注册时间：" width="80" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            <Label name="register_text" text="2013-01-01 00:00:00" width="200" textcolor="#004BB2F6" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        </HorizontalLayout>
+                    </ListContainerElement>
+                    <ListContainerElement height="31">
+                        <HorizontalLayout bkcolor="#006B93B2">
+                            <Label name="level_lbl" text="等级：" width="80" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            <Label name="level_text" text="VIP用户-不限时不限速, 想上就上" textcolor="#004BB2F6" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        </HorizontalLayout>
+                    </ListContainerElement>
+                    <ListContainerElement height="31">
+                        <HorizontalLayout bkcolor="#006B93B2">
+                            <Label name="hobby_lbl" text="爱好：" width="80" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            <Label name="hobby_text" text="网页浏览" textcolor="#004BB2F6" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        </HorizontalLayout>
+                    </ListContainerElement>
+                    <ListContainerElement height="31">
+                        <HorizontalLayout bkcolor="#006B93B2">
+                            <Label name="qbyte_lbl" text="本月流量：" width="80" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            <VerticalLayout width="160">
+                                <Label name="split" height="10" />
+                                <Progress name="qbyte_progress" width="150" height="12" bkimage="file=&apos;progress_back.png&apos;" maxheight="12" maxwidth="150" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="file=&apos;progress_fore.png&apos;" min="0" max="100" value="50" hor="true" />
+                            </VerticalLayout>
+                            <Label name="qbyte_ratio" text="2013M/5G" width="80" textcolor="#004BB2F6" />
+                            <Label name="qbyte_text" text="流量充足" textcolor="#004BB2F6" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        </HorizontalLayout>
+                    </ListContainerElement>
+                    <ListContainerElement height="31">
+                        <HorizontalLayout bkcolor="#006B93B2">
+                            <Label name="hbyte_lbl" text="累计流量：" width="80" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            <Label name="hbyte_text" text="2014M" width="80" textcolor="#004BB2F6" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            <Label name="hbyte_title" text="流量小乌龟" width="80" textcolor="#004BB2F6" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            <Label name="hbyte_next" text="下一等级：10G" width="100" textcolor="#004BB2F6" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        </HorizontalLayout>
+                    </ListContainerElement>
+                    <ListContainerElement height="31">
+                        <HorizontalLayout bkcolor="#006B93B2">
+                            <Label name="state_lbl" text="当前状态：" width="80" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            <Label name="state_text" text="活力四射" width="80" textcolor="#004BB2F6" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        </HorizontalLayout>
+                    </ListContainerElement>
+                </List>
+                <HorizontalLayout height="26" bkimage="file=&apos;toolbar\bk.bmp&apos;" bkcolor="#00757676" inset="1,1,1,1" />
+            </VerticalLayout>
+            <VerticalLayout />
+        </TabLayout>
+        <HorizontalLayout height="26" />
+    </VerticalLayout>
+</Window>

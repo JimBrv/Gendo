@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="308,238" caption="0,0,0,36" roundcorner="4,4" >
+  <VerticalLayout inset="4,0,4,4" bkimage="file='main.png' corner='4,48,4,4'" >
+    <HorizontalLayout height="32" inset="2,2,2,0">
+      <Label text="跟斗云登陆" width="80" textcolor="#FFFFFFFF" />
+      <Control />
+      <!--<Button name="closebtn" width="42" maxheight="18" tooltip="点击这里直接退出游戏" normalimage="file='frame_btn_close_normal.bmp' mask='#FFFF00FF'" hotimage="file='frame_btn_close_hot.bmp' mask='#FFFF00FF'" pushedimage="file='frame_btn_close_down.bmp' mask='#FFFF00FF'"/>-->
+      <Button name="closebtn" width="41" height="21" bkcolor="#FFB9D1EF" bkcolor2="#FF757676" bordercolor="#FF000000" maxheight="20" maxwidth="41" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;common.bmp&apos; source=&apos;0,60,41,80&apos;" hotimage="file=&apos;common.bmp&apos; source=&apos;41,60,82,80&apos;" pushedimage="file=&apos;common.bmp&apos; source=&apos;82,60,123,80&apos;" />
+    </HorizontalLayout>
+    <!--VerticalLayout-->
+    <Label height="50" width="300" textcolor="#004BB2F6" bkimage="file='login-banner.jpg'" />
+    <!-- Button  float="true" pos="10,5,0,0" width="40" height="40" maxheight="40" maxwidth="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;gendo-trit.png&apos; dest=&apos;3,3,50,50&apos;" -->
+    <!-- Progress height="12" bkcolor="#FFF8B343" /-->
+    <!--/VerticalLayout-->
+    <Container bkcolor="#FFFFFFFF" >
+      <Label text="账号：" float="true" pos="10, 20, 78, 42" />
+      <Combo name="accountcombo" float="true" pos="80, 20, 219, 42" tooltip="请点击这里选择您准备使用的账号" normalimage="file='Combo_nor.bmp' corner='2,2,24,2'" hotimage="file='Combo_over.bmp' corner='2,2,24,2'" pushedimage="file='Combo_over.bmp' corner='2,2,24,2'" textpadding="1,1,1,1" >
+        <ListLabelElement text="ChinaDream" selected="true" />
+        <ListLabelElement text="梦中国" />
+      </Combo>
+      <Button name="register" text="{u}{l}注册账号{/l}{/u}" textpadding="6,0,0,0" showhtml="true" float="true" pos="230, 20, 300, 42" tooltip="还没有账号？请点击注册新账号" />
+      <Edit name="accountedit" float="true" pos="81, 21, 199, 41" tooltip="请在这里输入您的账号"/>
+      <Label text="密码：" float="true" pos="10, 55, 78, 75" />
+      <Edit name="pwdedit" text="" float="true" pos="80, 55, 218, 75" password="true" tooltip="请在这里输入您的密码" bordercolor="#FF4EA0D1" bordersize="1"/>
+      <Option name="saveme" text="记住账号" float="true" textpadding="6,0,0,0" pos="225, 53, 310, 75" tooltip="为本机记住账号密码" normalimage="file='checkbox.png' dest='0,5,15,20'" hotimage="file='checkbox_h.png' dest='0,5,15,20'" selectedimage="file='checkbox_p.png' dest='0,5,15,20'"/>
+      <Label name="login_info" text="" float="true" pos="50, 75, 280, 90" textcolor="#0eb83a" />
+      <Button name="cancel"    text="取消" float="true" pos="66, 100, 126, 125" tooltip="还没账号？先进去看看吧" normalimage="button_nor.bmp" hotimage="button_over.bmp" pushedimage="button_down.bmp" />
+      <Button name="loginBtn"  text="登录" float="true" pos="186, 100, 246, 125" tooltip="点击这里登录跟斗云" normalimage="button_nor.bmp" hotimage="button_over.bmp" pushedimage="button_down.bmp" />
+    </Container>
+    <!-- Label text="提示：官网可能被x" float="true" pos="10, 20, 78, 42" / -->
+    <!-- ActiveX name="ie" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" delaycreate="false"/-->
+  </VerticalLayout>
+</Window>

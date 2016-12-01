@@ -1,0 +1,20 @@
+
+1. install python, python-django framwork, python-mysqldb first
+2. enter mysite dir, input "python manage.py validate";
+3. if you first run this web, input "python manage.py syncdb";
+4. if you hasn't add an administrator for django admin app, please add an admin user(python manage.py createsuperuser)
+   for you will use that admin to login ROP web;
+5. if no error found, try it with python embedded http server 
+   "python manage.py runserver 0.0.0.0:8000";
+6. browse the web(http://x.x.x.x/admin/), login as administrator created by 4 step, enjoy ROP;
+7. put apache.confg file to apache2.d config dir:
+   cp apache2-site-rop /etc/apache2/site-avaliable
+   ln -sf /etc/apache2/site-avaliable/apache2-site-rop /etc/apache2/site-enabled/default-000;
+
+
+8. link /var/www/download->/rop/download, /var/www/web->/rop/web
+
+9. restart apache2
+
+
+   wy 2010-10
